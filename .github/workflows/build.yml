@@ -3,6 +3,8 @@ name: Build .NET project
 env:
   DOTNET_VERSION: 10.0.x
   PROJECT_PATH: ./GitHuBActions/GitHuBActions.csproj
+env:
+  PROJECT_PATH: ./src/ProjectThatDoesNotExist/Project.csproj
 
 on:
   workflow_dispatch:
